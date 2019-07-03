@@ -1,5 +1,5 @@
 machines:
-  - name: powers-tilden
+  - name: tilden-post-lift
     dataset:
       type: TimeSeriesDataset
       tags: 
@@ -8,8 +8,8 @@ machines:
       - NINENINE.UISFLD::NNWPOWTILOR01.WHCSGPRS
       - NINENINE.UISFLD::NNWPOWTILOR01.WHTBGPRS
       - NINENINE.UISFLD::NNWPOWTILOR21.GASFLW
-      train_start_date: 2018-05-15T00:00:00+00:00
-      train_end_date: 2018-07-01T00:00:00+00:00
+      train_start_date: 2018-11-15T00:00:00+00:00
+      train_end_date: 2018-12-15T00:00:00+00:00
     model:
       sklearn.pipeline.Pipeline:
         steps:
